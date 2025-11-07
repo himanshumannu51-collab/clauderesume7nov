@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
-    // Temporarily skipped Prisma generate to avoid build errors
-    // "postinstall": "prisma generate"
+    "lint": "next lint",
+    "skip-postinstall-note": "Temporarily skipping prisma generate to avoid Vercel build error"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.0.0",
